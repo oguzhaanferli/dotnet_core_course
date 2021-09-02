@@ -1,8 +1,10 @@
 using MicroService.Service.Catalog.Services;
 using MicroService.Service.Catalog.Settings;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,12 +30,21 @@ namespace MicroService.Service.Catalog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Yazýlan identityserver projesinden token çekme iþini yapan kod
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+            {
+                options.Authority = Configuration["IdentityServerURL"];
+                options.Audience = "resource_catalog";
+                options.RequireHttpsMetadata = false;
+            });
+
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<ICourseService, CourseService>();
 
 
             services.AddAutoMapper(typeof(Startup));
-            services.AddControllers();
+            //Controller larýn üzerine tek tek Authorize attr eklememek için burda tek bir yerde ekliyoruz
+            services.AddControllers(options => { options.Filters.Add(new AuthorizeFilter()); });
 
             // IDatabaseSettings yazarak heryerden eriþebilmek için yazýlan configuration
             services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));
@@ -56,6 +67,8 @@ namespace MicroService.Service.Catalog
             }
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
