@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroService.IdentityServer", "IdentityServer\MicroService.IdentityServer\MicroService.IdentityServer.csproj", "{903249BE-904A-4D94-ADB4-1F4F60724BFD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{31E8BDEF-E3E3-40AC-B1BD-23C2DDEE2E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Service.PhotoStock", "Services\PhotoStock\MicroService.Service.PhotoStock\MicroService.Service.PhotoStock.csproj", "{9B073C89-692B-4B1F-AF85-FBA999BBEE88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{903249BE-904A-4D94-ADB4-1F4F60724BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{903249BE-904A-4D94-ADB4-1F4F60724BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{903249BE-904A-4D94-ADB4-1F4F60724BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B073C89-692B-4B1F-AF85-FBA999BBEE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B073C89-692B-4B1F-AF85-FBA999BBEE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B073C89-692B-4B1F-AF85-FBA999BBEE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B073C89-692B-4B1F-AF85-FBA999BBEE88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{01AB99CE-D278-4AF2-B0A4-DBBAE07E5D98} = {49EDA1BF-FE6E-48F6-B692-CB145AA12B0D}
 		{BF14D26C-16AB-4A29-8CE1-65BA4B349DD8} = {8E4C4C68-B751-4558-9480-557DB54DF007}
 		{903249BE-904A-4D94-ADB4-1F4F60724BFD} = {A43B5A54-6238-4500-8C06-A82F59087EF8}
+		{31E8BDEF-E3E3-40AC-B1BD-23C2DDEE2E0C} = {670567C1-0BB1-44F4-B992-FE9AD1FBB17F}
+		{9B073C89-692B-4B1F-AF85-FBA999BBEE88} = {31E8BDEF-E3E3-40AC-B1BD-23C2DDEE2E0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40588661-3F01-4BB0-8170-F67826BBD8EC}
