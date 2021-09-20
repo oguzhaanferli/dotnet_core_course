@@ -31,7 +31,7 @@ namespace MicroService.Service.PhotoStock
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             {
                 options.Authority = Configuration["IdentityServerURL"];
-                options.Audience = "photostock_catalog";
+                options.Audience = "resource_photostock";
                 options.RequireHttpsMetadata = false;
             });
 

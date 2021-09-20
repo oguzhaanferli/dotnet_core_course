@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace MicroService.Service.PhotoStock.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class PhotosController : CustomBaseController
     {
@@ -35,7 +35,7 @@ namespace MicroService.Service.PhotoStock.Controllers
             return CreateActionResultInstance(Response<PhotoDto>.Fail("photo is empty", 400));
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult PhotoDelete(string photoUrl)
         {
             var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/photos", photoUrl);

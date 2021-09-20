@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WHLZvh4Z2mTvWvW4KcDZRv6HccNvQgMDEKaVRAlRhhn/H7tugq6HhtRRuZuJzyO9xezuAD6SmokRXgemkUhHog==",
+  "dgSpecHash": "MkyEdHOPyy/DuFiwSyvjalsbE4SPCjvOGIqssCejcD+k79EzRmncWYZ4H6FqnbtT4xNKlYXMF18CbKYmaysCcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oguzh\\Documents\\Egitim\\MicroService\\MicroServiceWork\\IdentityServer\\MicroService.IdentityServer\\MicroService.IdentityServer.csproj",
+  "projectFilePath": "C:\\Users\\oguzh\\Documents\\Github\\MicroServiceWork\\IdentityServer\\MicroService.IdentityServer\\MicroService.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oguzh\\.nuget\\packages\\identitymodel\\4.3.0\\identitymodel.4.3.0.nupkg.sha512",
     "C:\\Users\\oguzh\\.nuget\\packages\\identityserver4\\4.0.0\\identityserver4.4.0.0.nupkg.sha512",

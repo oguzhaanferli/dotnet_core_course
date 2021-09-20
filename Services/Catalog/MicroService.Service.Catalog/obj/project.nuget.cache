@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7QCeYpJHxLgktTC/qyLgjzkj31HW+nZLDIEYFFvJfxYzXqgf7pLhVS23nzlyETnw3zxVZKITYL6olWv3oVWPaQ==",
+  "dgSpecHash": "ze44+/2j94XVenYBpWTz5VQIU9J3PjDpBTXQNtXBTZwg1Q4uU6lGRDBzY9LgjctHeprqr3qadNTF2P8C2NhXkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oguzh\\Documents\\Egitim\\MicroService\\MicroServiceWork\\Services\\Catalog\\MicroService.Service.Catalog\\MicroService.Service.Catalog.csproj",
+  "projectFilePath": "C:\\Users\\oguzh\\Documents\\Github\\MicroServiceWork\\Services\\Catalog\\MicroService.Service.Catalog\\MicroService.Service.Catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oguzh\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\oguzh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

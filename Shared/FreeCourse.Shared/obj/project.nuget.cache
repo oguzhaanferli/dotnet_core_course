@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVWpiXGx0isEJVgauX9C5Aq42twwUtIQTZKAIBx4ZrPgNxpO0JcxqK+G+t9H/dzqxupt+RaQTvAeEsMSfYyd+Q==",
+  "dgSpecHash": "py0kglYUTSN4FaYTdO2qfnXHt07RHAumNeDrGmWl5PKJ6e2jFkW5/O2doWZefvsXvQAuXO7sa3hdneby7LehzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oguzh\\Documents\\Egitim\\MicroService\\MicroServiceWork\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
+  "projectFilePath": "C:\\Users\\oguzh\\Documents\\Github\\MicroServiceWork\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

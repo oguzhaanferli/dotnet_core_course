@@ -14,7 +14,9 @@ namespace MicroService.IdentityServer
 
         public static IEnumerable<ApiResource> ApiResources => new ApiResource[] {
                  new ApiResource("resource_catalog"){Scopes = {"catalog_fullpermission"}},
-                 new ApiResource("photostock_catalog"){Scopes = {"photostock_fullpermission"}},
+                 new ApiResource("resource_photostock"){Scopes = {"photostock_fullpermission"}},
+                 new ApiResource("resource_basket"){Scopes = {"basket_fullpermission"}},
+                 new ApiResource("resource_discount"){Scopes = {"discount_fullpermission"}},
                  new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
 
             };
@@ -33,6 +35,8 @@ namespace MicroService.IdentityServer
             {
                 new ApiScope("catalog_fullpermission","Catalog Api için Full erişim"),
                 new ApiScope("photostock_fullpermission","PhotoStock Api için Full erişim"),
+                new ApiScope("basket_fullpermission","Basket Api için Full erişim"),
+                new ApiScope("discount_fullpermission","Discount Api için Full erişim"),
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
@@ -52,7 +56,7 @@ namespace MicroService.IdentityServer
                     AllowOfflineAccess = true,
                     ClientSecrets={ new Secret("secret".Sha256()) },
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
-                    AllowedScopes = { IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile, IdentityServerConstants.StandardScopes.OfflineAccess, IdentityServerConstants.LocalApi.ScopeName, "roles" },
+                    AllowedScopes = { "basket_fullpermission", "discount_fullpermission", IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId, IdentityServerConstants.StandardScopes.Profile, IdentityServerConstants.StandardScopes.OfflineAccess, IdentityServerConstants.LocalApi.ScopeName, "roles" },
                     AccessTokenLifetime = 1*60*60, // Access token geçerlilik süresi
                     //refresh token kullanıcının haberi olmadan access token süresi dolunca yeni bir access token alabilmeyi sağlıyor.
                     RefreshTokenExpiration= TokenExpiration.Absolute, // refresh token istedikce ömrü artsınmı

@@ -16,3 +16,13 @@ C:\Users\oguzh\Documents\Egitim\MicroService\MicroServiceWork\Shared\FreeCourse.
 C:\Users\oguzh\Documents\Egitim\MicroService\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.csproj.CoreCompileInputs.cache
 C:\Users\oguzh\Documents\Egitim\MicroService\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.dll
 C:\Users\oguzh\Documents\Egitim\MicroService\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.pdb
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\bin\Debug\netcoreapp3.1\FreeCourse.Shared.deps.json
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\bin\Debug\netcoreapp3.1\FreeCourse.Shared.dll
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\bin\Debug\netcoreapp3.1\FreeCourse.Shared.pdb
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.csproj.AssemblyReference.cache
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.AssemblyInfoInputs.cache
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.AssemblyInfo.cs
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.csproj.CoreCompileInputs.cache
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.dll
+C:\Users\oguzh\Documents\Github\MicroServiceWork\Shared\FreeCourse.Shared\obj\Debug\netcoreapp3.1\FreeCourse.Shared.pdb
